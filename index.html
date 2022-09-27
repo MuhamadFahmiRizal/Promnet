@@ -1,64 +1,67 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ini adalah header -->
+    <header>
+        <h1>
+            Belajar Membuat Layout dengan HTML dan CSS
+        </h1>
+    </header>
 
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Waifu Musiman</title>
-    </head>
-        <div style="background-color: lightblue;">
-            <header>
-                <center><h1 style="background-color: aquamarine;">KONO SUBARASHII SEKAI NI SHUKUFUKU WO! WIKI</h1></center>
-            </header>
-            <section>
-                <div style="background-color: orangered; width: 400px; height: 600px; margin: auto;">
-                <center><img src="img/megumin.jpg" alt="Megumin" style="width: 250px; height: 340px; margin: 40px auto;"></center>
-                <table style="border: 1px solid; text-align: left; margin: 0px auto;">
-                    <tr>
-                      <th>Nama</th>
-                      <td>:</td>
-                      <td>Megumin</td>
-                    </tr>
-                    <tr>
-                        <th>Race</th>
-                        <td>:</td>
-                        <td>Human</td>
-                      </tr>
-                    <tr>
-                        <th>Gender</th>
-                        <td>:</td>
-                        <td>Female</td>
-                    </tr>
-                    <tr>
-                        <th>Age</th>
-                        <td>:</td>
-                        <td>17</td>
-                    </tr>
-                    <tr>
-                        <th>Hair Color</th>
-                        <td>:</td>
-                        <td>Brown</td>
-                    </tr>
-                    <tr>
-                        <th>Eye Color</th>
-                        <td>:</td>
-                        <td>Red</td>
-                    </tr>
-                </table>
-            </div>
-            </section>
-           <body>
-            <div style="background-color: orangered; width: 1010px; height: 120px; margin: auto;">
-                <center><p style="font-family: Helvetica;">Megumin adalah seorang gadis muda dengan rambut coklat gelap sebahu (hitam mulus dalam novel ringan) dan mata berwarna merah tua yang aneh. Dia memiliki kulit putih, kulit terang dan fitur seperti boneka. Tidak seperti teman-teman sekelasnya di Desa Crimson, yang memiliki tubuh yang lebih berkembang, Megumin tampaknya memiliki sosok yang kurang berkembang.
+    <!-- ini adalah nav -->
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-                    Megumin mengenakan pakaian penyihir klasik seperti jubah hitam, jubah merah, sepatu bot oranye dan topi penyihir hitam, semuanya dengan pinggiran emas dan hiasan, di samping kalung hitam, ikat pinggang, dan sarung tangan tanpa jari. Kaki kanan Megumin dibalut perban putih dan stocking hitam di kaki kiri. Dia membawa tongkat coklat dengan permata merah mengambang.</p>
-                </center>
+    <!-- ini adalah konten -->
+    <div id="container">
+        <section class="kiri">
+            <div class="content">
+                <h3>Judul berita</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsa est repellendus recusandae perferendis quos. Minima nisi omnis ab nobis reprehenderit? Velit, amet sed quae deleniti nobis quia quisquam pariatur aspernatur, aperiam modi rem dolorum sunt unde fugit earum impedit incidunt adipisci reprehenderit nemo molestiae. Voluptatibus nihil iste dolore repellendus!
+                    </p>
+                    <button>Read More</button>
             </div>
-           </body> 
-    
-           <footer>
-            <center><h1 style="background-color: aquamarine;">Created by Muhamad Fahmi Rizal</h1></center>
-           </footer>
-        </div>
+            <div class="content">
+                <h3>Judul berita</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsa est repellendus recusandae perferendis quos. Minima nisi omnis ab nobis reprehenderit? Velit, amet sed quae deleniti nobis quia quisquam pariatur aspernatur, aperiam modi rem dolorum sunt unde fugit earum impedit incidunt adipisci reprehenderit nemo molestiae. Voluptatibus nihil iste dolore repellendus!
+                    </p>
+                    <button>Read More</button>
+            </div>
+        </section>
+
+        <section class="kanan">
+            <h2>CATEGORY</h2>
+            <hr />
+            <a class="category-kanan" href="#">HTML</a>
+            <a class="category-kanan" href="#">CSS</a>
+            <a class="category-kanan" href="#">Javascript</a>
+            <a class="category-kanan" href="#">Bootstrap</a>
+            <a class="category-kanan" href="#">PHP</a>
+            <a class="category-kanan" href="#">MySQL</a>
+            <a class="category-kanan" href="#">Laravel</a>
+        </section>
+
+    </div>
+
+    <!-- ini adalah footer -->
+    <footer class="main-footer">
+        <h4 id="copyright">Copyright PSTI 2022</h4>
+      </footer>
+
+</body>
 </html>
